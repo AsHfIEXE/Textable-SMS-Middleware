@@ -36,8 +36,9 @@ AI Agent (Retell / Telogix)
 ## 📦 Installation
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/AsHfIEXE/Textable-SMS-Middleware.git
 cd <repo-folder>
+npm install express axios crypto dotenv
 npm install
 ```
 
@@ -172,6 +173,3 @@ The middleware returns:
 * Use `ngrok` only for testing. In production, deploy on a secure HTTPS endpoint.
 * Textable’s **Webhook Integration** can also be enabled to sync incoming SMS into your CRM or app.
 
----
-
-Would you like me to also include a **sample `.env.example` file** in the README so your client can just copy/rename it, or keep the `.env` instructions inline only?
